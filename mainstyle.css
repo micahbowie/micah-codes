@@ -2,18 +2,18 @@ body {
   margin: auto;
   height: 60%;
   width: 80%;
-/*   border: 3px solid green; */
+  border: 3px solid green;
   padding: 60px 10px 30px 10px;
   background:#8FB9A8 ;
   color:#fff;
 }
 
 img {
-  width: 25%;
+  width: 90%;
   height: auto;
   border-radius: 25px;
   padding: 10px 10px 10px 10px;
-/*   border: 3px solid green; */
+  border: 3px solid green;
 }
 
 
@@ -23,20 +23,22 @@ img {
   padding: 5px;
   border: 3px solid white;
   border-color: #FEFAD4;
+/*   width: 55px; */
 }
 
 #linkbar {
-/*   display: inline; */
+
 /*   padding: 0px 0px 0px 60px; */
- float: right;
- margin:20px 570px 20px 20px;
+/*  float: right; */
+ margin:20px 30px 20px 20px;
 }
 
 .topsection {
-  width: 97%;
+  width: 25%;
+  height: 700px;
   padding: 10px;
-/*   border: 3px solid green; */
-  margin: auto;
+  border: 3px solid green;
+/*   margin: auto; */
 }
 
 #button {
@@ -47,7 +49,7 @@ img {
   color: #8FB9A8;
   text-decoration: none;
   float: right;
-  margin: -160px 570px 0px 0px;
+  margin:1px 25px 0px 0px;
   background-color: #FEFAD4;
   font-size: 30px;
 }
@@ -60,7 +62,7 @@ img {
   color: #8FB9A8;
   text-decoration: none;
   float: right;
-  margin: -80px 570px 0px 0px;
+  margin: 8px 25px 0px 0px;
   background-color: #FEFAD4;
   font-size: 30px;
 }
@@ -68,10 +70,30 @@ img {
 #bio {
   float: right;
 /*   background-color: red; */
-  margin: -250px 40px 0px 0px;
+  margin: -700px 490px 0px 0px;
   text-color: #8FB9A8;
 }
 
 #tech {
-  float: right;
+  margin: -500px 20px 0px 360px;
+}
+
+/* .line {
+  width: 100px;
+  height: 0;
+  border: 1px solid #FEFAD4;
+  margin: 3px;
+  display:inline-block;
+}
+
+#project a {
+  text-decoration: none;
+  text-color: white;
+  list-style-type: none;
+  font-size: 25px;
+} */
+
+#project {
+/*   margin: 20px 200px 20px 0px; */
+  background color: red;
 }

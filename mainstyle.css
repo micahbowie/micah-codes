@@ -1,99 +1,47 @@
 body {
-  margin: auto;
-  height: 60%;
-  width: 80%;
-  border: 3px solid green;
-  padding: 60px 10px 30px 10px;
   background:#8FB9A8 ;
-  color:#fff;
+  margin: 0;
+  padding: 0;
 }
 
-img {
-  width: 90%;
-  height: auto;
-  border-radius: 25px;
-  padding: 10px 10px 10px 10px;
-  border: 3px solid green;
+header {
+/*   background: white; */
+  padding: 20px 10px;
 }
-
-
-#sociallink {
-  color: #FEFAD4;
-  text-decoration: none;
-  padding: 5px;
-  border: 3px solid white;
-  border-color: #FEFAD4;
-/*   width: 55px; */
+#aboutme {
+/*   background: red; */
+  padding: 10px 80px;
 }
-
-#linkbar {
-
-/*   padding: 0px 0px 0px 60px; */
-/*  float: right; */
- margin:20px 30px 20px 20px;
-}
-
-.topsection {
-  width: 25%;
-  height: 700px;
-  padding: 10px;
-  border: 3px solid green;
-/*   margin: auto; */
-}
-
-#button {
-  width: 270px;
-  height: 70px;
-  text-align: center;
-  line-height: 70px;
-  color: #8FB9A8;
-  text-decoration: none;
-  float: right;
-  margin:1px 25px 0px 0px;
-  background-color: #FEFAD4;
-  font-size: 30px;
-}
-
-#button2 {
-  width: 270px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  color: #8FB9A8;
-  text-decoration: none;
-  float: right;
-  margin: 8px 25px 0px 0px;
-  background-color: #FEFAD4;
-  font-size: 30px;
-}
-
-#bio {
-  float: right;
-/*   background-color: red; */
-  margin: -700px 490px 0px 0px;
-  text-color: #8FB9A8;
-}
-
 #tech {
-  margin: -500px 20px 0px 360px;
+  background: pink;
+  padding: 20px 10px;
 }
-
-/* .line {
-  width: 100px;
-  height: 0;
-  border: 1px solid #FEFAD4;
-  margin: 3px;
-  display:inline-block;
+#projects {
+  background: orange;
+  padding: 10px;
+  height: 400px;
 }
-
-#project a {
-  text-decoration: none;
-  text-color: white;
-  list-style-type: none;
-  font-size: 25px;
-} */
-
-#project {
-/*   margin: 20px 200px 20px 0px; */
-  background color: red;
+footer{
+  background: white;
+  padding: 20px 10px;
+}
+.sociallink{
+  margin: 6px;
+  color: #FEFAD4;
+}
+#bio{
+  color: #FEFAD4;
+  margin: -340px 0px 0px 380px;
+}
+img{
+  border-radius: 30px;
+  width: 18%;
+  height: auto;
+  margin:20px 0px 20px 20px;
+}
+#bio p {
+  font-size: 24px;
+}
+#bio h1 {
+  font-size: 30px
 }

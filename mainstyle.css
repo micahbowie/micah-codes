@@ -16,9 +16,11 @@ header {
 }
 #projects {
   padding: 25px 10px;
-  height: 400px;
+  height: auto;
   display: flex;
   justify-content: space-around;
+  flex-flow: wrap;
+  flex-direction: row;
 }
 footer{
   background: #FEFAD4;
@@ -66,16 +68,32 @@ img{
 }
 .project-panel {
   width: 29%;
-  height: auto;
+  height: 350px;
   background: #FEFAD4;
+  box-sizing: border-box;
 }
-#7DA293
-.panel-1{
-
+.panel-1 {
+  /* display: inline; */
 }
 .panel-2{
-
+/* display: inline; */
 }
 .panel-3{
-
+/* display: inline; */
+}
+@media only screen and (max-width: 1020px) {
+  .panel-1{
+    width: 350px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .panel-2{
+    width: 350px;
+    margin-bottom: 30px;
+  }
+  .panel-3{
+    width: 350px;
+    margin-bottom: 30px;
+  }
 }

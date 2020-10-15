@@ -11,12 +11,14 @@ header {
   padding: 2% 3%;
 }
 #tech {
-  background: #FEFAD4;
+  background: #7DA293;
   padding: 30px 10px;
 }
 #projects {
-  padding: 10px;
+  padding: 25px 10px;
   height: 400px;
+  display: flex;
+  justify-content: space-around;
 }
 footer{
   background: #FEFAD4;
@@ -61,4 +63,19 @@ img{
   font-size: 18px;
   margin: 0;
   margin-top: 10px;
+}
+.project-panel {
+  width: 29%;
+  height: auto;
+  background: #FEFAD4;
+}
+#7DA293
+.panel-1{
+
+}
+.panel-2{
+
+}
+.panel-3{
+
 }

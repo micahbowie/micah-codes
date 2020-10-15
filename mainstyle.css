@@ -2,26 +2,24 @@ body {
   background:#8FB9A8 ;
   margin: 0;
   padding: 0;
+  overflow: auto;
 }
 header {
-/*   background: white; */
   padding: 20px 10px;
 }
 #aboutme {
-/*   background: red; */
-  padding: 40px 80px;
+  padding: 2% 3%;
 }
 #tech {
   background: #FEFAD4;
-  padding: 10px 10px;
+  padding: 30px 10px;
 }
 #projects {
-/*   background: orange; */
   padding: 10px;
   height: 400px;
 }
 footer{
-  background: white;
+  background: #FEFAD4;
   padding: 20px 10px;
 }
 .sociallink{
@@ -30,29 +28,37 @@ footer{
 }
 #bio{
   color: #FEFAD4;
-  margin: -395px 0px 0px 380px;
+  display: block;
+  margin:auto;
+  font-size: 24px;
+  width: 70%;
+  text-align: center;
 }
 img{
-  border-radius: 200px;
+  border-radius: 50%;
   width: 20%;
   height: auto;
-  margin:5px 0px 50px 20px;
-}
-#bio p {
-  font-size: 24px;
+  margin:auto;
+  display: block;
+  border: 2px solid #FEFAD4;
+
 }
 #bio h1 {
-  font-size: 30px
+  font-size: 30px;
+  text-align: center;
 }
 #techicon{
-  margin: 0px 600px 0px 600px;
+ margin-left: auto;
+ margin-right: auto;
+ width: 420px;
 }
 #techicon i{
-  margin: 10px 6px 0px 6px;
   color:  #8FB9A8;
 }
 #tech p{
   text-align: center;
   color:  #8FB9A8;
   font-size: 18px;
+  margin: 0;
+  margin-top: 10px;
 }
